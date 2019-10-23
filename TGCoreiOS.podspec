@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   This lib has already all dependecies added so just type down in terminal - pod install -. In case of missing binary code plugging type - gem install cocoapods-binary - to install oficial plugging for prebuilding frameworks for better performance.
                          DESC
 
-  s.homepage         = 'https://intelinovasoftware.visualstudio.com/TRAININGYM/_git/TG%20Core%20iOS'
+  s.homepage         = 'https://github.com/Alexdelgadodiaz/pod2.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Copyright', :file => 'LICENSE' }
   s.author           = { 'alexdelgadodiaz' => 'alejandro.delgado@trainingym.com' }
-  s.source           = { :git => 'https://intelinovasoftware.visualstudio.com/TRAININGYM/_git/TG%20Core%20iOS', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Alexdelgadodiaz/pod2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.1'
