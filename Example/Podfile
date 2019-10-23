@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TGCoreExample' do
+  pod 'TGCoreiOS', :path => '../'
+
+  target 'TGCoreExampleTests' do
+    inherit! :search_paths
+
+    
+  end
+end

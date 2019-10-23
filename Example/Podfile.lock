@@ -1,0 +1,29 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+  - TGCoreiOS (0.1.0):
+    - Parse (~> 1.17.3)
+
+DEPENDENCIES:
+  - TGCoreiOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Parse
+
+EXTERNAL SOURCES:
+  TGCoreiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  TGCoreiOS: 08eb1c411df7713b99b4972fc9b4009b129e6832
+
+PODFILE CHECKSUM: eb7a6a3418313c64239d38a52da902becea2a03e
+
+COCOAPODS: 1.8.4
